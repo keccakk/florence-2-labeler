@@ -1,2 +1,11 @@
-# florence-2-labeler
-Image dataset captioning using Florence 2, saves captions to a CSV file
+# Florence 2 Image Dataset Labeler
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+## Reference
+
+- [Model](https://huggingface.co/microsoft/Florence-2-large)
