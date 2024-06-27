@@ -3,7 +3,10 @@
 ## Setup
 
 ```bash
-pip install -r requirements.txt
+conda create --name florence python=3.11
+conda activate florence
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+pip install -r requirements
 ```
 
 ## Reference
